@@ -1,4 +1,4 @@
-package request;
+package dto;
 
 import com.google.common.collect.Lists;
 import lombok.Builder;
@@ -30,7 +30,7 @@ public class CalculateProductResponse {
             super.subTotal(reduce.getSubTotal());
             super.total(reduce.getTotal());
             super.tax(reduce.getTax().stripTrailingZeros());
-            
+
             log.info("sum CalculateProductResponse subTotal:[{}], total:[{}], tax:[{}].",
                     reduce.getSubTotal(),
                     reduce.getTotal(),

@@ -6,8 +6,8 @@ import enums.ProductItem;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
-import request.CalculateProductResponse;
-import request.Product;
+import dto.CalculateProductResponse;
+import dto.Product;
 import service.CalculateServiceFactory;
 
 import java.math.BigDecimal;

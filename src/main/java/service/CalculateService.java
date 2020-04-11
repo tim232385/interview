@@ -3,9 +3,9 @@ package service;
 import enums.LocationType;
 import enums.ProductType;
 import lombok.extern.slf4j.Slf4j;
-import request.CalculateProductModel;
-import request.CalculateProductResponse;
-import request.Product;
+import dto.CalculateProductModel;
+import dto.CalculateProductResponse;
+import dto.Product;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
